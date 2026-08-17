@@ -38,21 +38,25 @@ body{
 }
 
 .content-hero{
+
+    border: 2px solid;
+    width: 50%;
+    height: 60%;
+
+    margin: 0 auto;
+    
     display: flex;
     /* Alinhamento horizontal (x) */
-    justify-content: center;
+    justify-content: space-between;
     /* Alinhamento vertical (y) */
     align-items: center;
-
-    
 }
 
-.content-hero--left, .content-hero--center, .content-hero--right{
-    border-radius: 10px;
+.box{
+    border-radius: 25px;
     border: 2px solid;
-    margin: 10px;
     background-color: aquamarine;
-    width: 400px;
+    width: 200px;
     height: 500px;
     
 }
