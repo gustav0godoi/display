@@ -1,0 +1,61 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilizar utilizando uma TAG como seletor*/
+
+/* Sintaxe do CSS:
+
+seletor{propriedade: valor} --> Regra do CSS*/ 
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    
+}
+
+
+
+.content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33%;
+    background-color: blue;
+}
+
+.banner-header{
+    width: 90%;
+    height: 90%;
+    background-color: lightblue;
+}
+
+.content-hero{
+    display: flex;
+    /* Alinhamento horizontal (x) */
+    justify-content: center;
+    /* Alinhamento vertical (y) */
+    align-items: center;
+
+    
+}
+
+.content-hero--left, .content-hero--center, .content-hero--right{
+    border-radius: 10px;
+    border: 2px solid;
+    margin: 10px;
+    background-color: aquamarine;
+    width: 400px;
+    height: 500px;
+    
+}
+
+
+
