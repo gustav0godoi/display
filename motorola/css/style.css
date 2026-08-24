@@ -7,6 +7,16 @@
 }
 
 
-.sub_tit1 {
-    color: #6CA9F9;
+.conteudo-principal{
+    display: flex;
+    margin: 10vw 12vw;
+}
+
+img{
+    width: 450px;
+    height: 650px;
+}
+
+.conteudo-principal__direito--descricao{
+    
 }
