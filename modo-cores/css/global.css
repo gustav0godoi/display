@@ -1,0 +1,95 @@
+@import url(./style.css);
+@import url(./design-system.css);
+
+
+
+/* Bloco principal da seção: Ocupa a tela e organiza os filhos lado a lado */
+.color-section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.color-section__sidebar{
+    background-color: darkslateblue;
+    width: 15%;
+
+}
+
+
+.color-section__title{
+    color: #ffffff;
+
+}
+
+.color-section__menu{
+
+}
+
+.color-section__link{
+    color: #ffffff;
+
+}
+
+.color-section__link--active{
+
+}
+
+.color-section__link--active:hover{
+
+}
+
+
+.color-section__bar--RGB-1{
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    width: 100%;
+    background-color: #FF0000;
+}
+
+.color-section__bar--RGB-2{
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    width: 100%;
+    background-color: #00FF00;
+
+}
+
+.color-section__bar--RGB-3{
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    width: 100%;
+    background-color: #0000FF;
+
+}
+
+.color-section__bar--RGB-4{
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    width: 100%;
+    background-color: #00FFFF;
+
+}
+
+.color-section__bar--RGB-5{
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    width: 100%;
+    background-color: #FF00FF;
+
+}
+
+.color-section__bar--RGB-6{
+    display: flex;
+    width: 15%;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFF00;
+
+}

@@ -5,10 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>modo-cores</title>
     <!-- Link CSS -->
-     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/global.css">
 
 </head>
+
 <body>
     
+
+    <!-- SEÇÃO 1: MODELO RGB (Baseado na luz: red, green, blue) -->
+    <section id="RGB" class="color-section">
+
+        <!-- Divisão 1 de 7: Menu lateral -->
+         <!-- RGB -->
+        <aside class="color-section__sidebar">
+            <h2 class="color-section__title">Modelo RGB</h2>
+            <nav class="color-section__menu">
+                 <a href="#RGB" class="color-section__link color-section__link--active">RGB</a>
+                <a href="#CMYK" class="color-section__link">CMYK</a>
+                <a href="#NETFLIX" class="color-section__link">NETFLIX</a>
+                <a href="#GOOGLE" class="color-section__link">GOOGLE</a>
+            </nav>
+        </aside>
+
+        <div class="color-section__bar color-section__bar--RGB-1"></div>
+        <div class="color-section__bar color-section__bar--RGB-2"></div>
+        <div class="color-section__bar color-section__bar--RGB-3"></div>
+        <div class="color-section__bar color-section__bar--RGB-4"></div>
+        <div class="color-section__bar color-section__bar--RGB-5"></div>
+        <div class="color-section__bar color-section__bar--RGB-6"></div>
+    </section>
+
+        
+         <!-- CMYK -->
+        <section id="CMYK" class="color-section">
+            <aside class="color-section__sidebar">
+                <h2 class="color-section__title">Modelo CMYK</h2>
+                <nav class="color-section__menu">
+                    <a href="#RGB" class="color-section__link">RGB</a>
+                    <a href="#CMYK" class="color-section__link color-section__link--active">CMYK</a>
+                    <a href="#NETFLIX" class="color-section__link">NETFLIX</a>
+                    <a href="#GOOGLE" class="color-section__link">GOOGLE</a>
+                </nav>
+            </aside>
+
+            <div class="color-section__bar color-section__bar--CMYK-1"></div>
+            <div class="color-section__bar color-section__bar--CMYK-2"></div>
+            <div class="color-section__bar color-section__bar--CMYK-3"></div>
+            <div class="color-section__bar color-section__bar--CMYK-4"></div>
+            <div class="color-section__bar color-section__bar--CMYK-5"></div>
+            <div class="color-section__bar color-section__bar--CMYK-6"></div>
+        </section>
+
+        <!-- NETFLIX -->
+        <section id="NETFLIX" class="color-section">
+            <aside class="color-section__sidebar">
+                <h2 class="color-section__title">Modelo NETFLIX</h2>
+                <nav class="color-section__menu">
+                    <a href="#RGB" class="color-section__link">RGB</a>
+                    <a href="#CMYK" class="color-section__link">CMYK</a>
+                    <a href="#NETFLIX" class="color-section__link color-section__link--active">NETFLIX</a>
+                    <a href="#GOOGLE" class="color-section__link">GOOGLE</a>
+                </nav>
+            </aside>
+
+            <div class="color-section__bar color-section__bar-1"></div>
+            <div class="color-section__bar color-section__bar-2"></div>
+            <div class="color-section__bar color-section__bar-3"></div>
+        </section>
+
+        <!-- GOOGLE -->
+        <section id="GOOGLE" class="color-section">
+            <aside class="color-section__sidebar">
+                <h2 class="color-section__title">Modelo GOOGLE</h2>
+                <nav class="color-section__menu">
+                    <a href="#RGB" class="color-section__link">RGB</a>
+                    <a href="#CMYK" class="color-section__link ">CMYK</a>
+                    <a href="#NETFLIX" class="color-section__link ">NETFLIX</a>
+                    <a href="#GOOGLE" class="color-section__link color-section__link--active">GOOGLE</a>
+                </nav>
+            </aside>
+
+            <div class="color-section__bar color-section__bar--1"></div>
+            <div class="color-section__bar color-section__bar--2"></div>
+            <div class="color-section__bar color-section__bar--3"></div>
+            <div class="color-section__bar color-section__bar--4"></div>
+        </section>    
+
+
+
 </body>
 </html>
