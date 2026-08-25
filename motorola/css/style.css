@@ -10,6 +10,7 @@
 .conteudo-principal{
     display: flex;
     margin: 10vw 12vw;
+    
 }
 
 img{
@@ -17,6 +18,14 @@ img{
     height: 650px;
 }
 
+
+.conteudo-princiapl__direito--titulo{
+    width: 650px;
+    height: 115px;
+}
+
 .conteudo-principal__direito--descricao{
-    
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
