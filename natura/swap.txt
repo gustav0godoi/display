@@ -1,0 +1,12 @@
+    <section class="Brand">
+        <h1 class="Brand__title">Conheça nossas marcas</h1>
+            <section class="Brand__grind"></section>
+
+                    <article class="brand-card__Kaiak">
+                        <span class="brand-card__image">
+                        <div class="brand-card__title">Kaiak</div>
+                        <div class=""brand-card__description>Fra</div>
+                        <div class="brand-card__button"></div>
+                    </article>
+        </header>
+    </section>
