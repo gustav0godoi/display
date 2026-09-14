@@ -3,5 +3,70 @@
 @import url(./design-system.css);
 
 .brands{
-    padding: 30px;
+    padding: 30px;               
+}
+
+.brands__title h1{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.brands__grid{
+    display: flex;
+    /* Enviar o elemento para a próxima linha(Quebrar linha) */
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.brand-card{
+    /* Crescer se houver espaço */
+    flex-grow: 1;
+    /* Encolher se tela diminuir */
+    flex-shrink: 1;
+    /* Largura base de cada card */
+    flex-basis: 280px;
+}
+
+.brand-card__image{
+    width: 100%;
+    height: 400px;
+    background-color: darkgray;
+    border-radius: 0 40px 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.brand-card__image span{
+    color: rgb(202, 201, 201);
+}
+
+.brand-card__title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.brand-card__description{
+    font-family: "Montserrat", sans-serif;
+    color: darkgrey;
+    font-size: 16px;
+    line-height: 1.6;
+    /* Tamanho máximo (0...400px) */
+    max-width: 400px;
+}
+
+.brand-card__button{
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 3px solid darkgrey;
+    border-radius: 30px;
+    color: grey;
+    cursor: pointer;
+}
+
+.brand-card__button:hover{
+    background-color: darkgray;
+    color: white;
 }
