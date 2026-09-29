@@ -1,3 +1,61 @@
-/* RESET */
+@import url(./variable.css);
 @import url(./reset.css);
 
+
+/* Header e navegação */
+
+.header {
+
+}
+
+.header__brand {
+
+}
+
+.header__title {
+
+}
+
+.nav__list {
+
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+
+}
+
+.section-ia {
+
+}
+
+.section-ia__container {
+
+}
+
+.section-ia__content{
+
+}
+
+.section-ia__title {
+
+}
+
+.section-ia__text {
+
+}
+
+.section-ia--aside {
+
+}
+
+.card-image {
+
+}
+
+.card-image__img {
+    
+}
