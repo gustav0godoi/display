@@ -1,15 +1,37 @@
 /* Smartphones Pequenos */
 @media ( max-width: 500px) {
 
-    .body{
+    .body {
         padding-top: 170px;
         padding-bottom: 60px;
     }
-    .header{
+
+    .header {
         height: auto;
         padding: 10px 8px;
         flex-direction: column;
         gap: 8px;
+    }
+
+    .header__title {
+        font-size: 2.4rem; /* 24px */
+    }
+
+    .nav__list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+        padding: 4px;
+    }
+
+    .nav__link {
+        width: 100%;
+        font-size: 1.1rem; /*11px*/
+        padding: 6px 4px;
+        display: block;
+        white-space: nowrap;
     }
     
 
